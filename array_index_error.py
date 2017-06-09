@@ -8,6 +8,9 @@
 # By knowing the reason, we could simply have two ways to fix this error, which are given in s2 and s3 in the following
 
 
+import sys
+
+
 def test_1(input_list):
     new_list = []
     for i in range(len(input_list)):
@@ -16,6 +19,7 @@ def test_1(input_list):
     return new_list
 
 test_1([1, 2, 3, 4])
+
 
 
 # situation 2: allocate enough space for the new_list, which is not significant or meaningful,
@@ -37,3 +41,10 @@ def test_3(input_list):
         print("list is {}, new_list is {}".format(input_list, new_list))
     return new_list
 test_3([3, 4, 5, 6])
+
+
+def test_4(input_list):
+    new_list = []
+    mem = sys.getsizeof(new_list)
+    print(mem)
+test_4([])
