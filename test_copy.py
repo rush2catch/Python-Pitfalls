@@ -16,7 +16,7 @@ print()
 # using a shallow copy
 d = copy.copy(c)
 # False - d is now a new object
-print("shallow copy:id(c)==id(d):{},id(c)={},id(d)={}".format(id(c)==id(d),id(c),id(d)))
+print("shallow copy:id(c)==id(d):{},id(c)={},id(d)={}".format(id(c) == id(d),id(c),id(d)))
 # True - d[0] is the same object as c[0]
 print("shallow copy:id(c[0]) == id(d[0]):{},id(c[0])={},id(d[0])={}".format(id(c[0])==id(d[0]), id(c[0]), id(d[0])))
 print()
