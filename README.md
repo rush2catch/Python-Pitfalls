@@ -7,3 +7,4 @@ pitfalls and traps in python programming language
 - [x] time consumption calculation in python - time_consuming.py
 - [x] turtle graphics module - turtle_basics.py
 - [x] argument reference - args.py
+- [x] dictionary - dic.py
