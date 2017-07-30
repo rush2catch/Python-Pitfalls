@@ -3,7 +3,8 @@ import copy
 
 a = [1, 2, 3]
 b = [4, 5, 6]
-c = [a, b]
+# c = [a, b]
+c = [[1], [2], [3]]
 
 # using normal assignment operations to copy:
 d = c
