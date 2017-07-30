@@ -8,10 +8,13 @@ class A(object):
 
 	@staticmethod
 	def m3(n):
-		pass
+		print("n:", n)
 
 
 a = A()
+A.m1(a, 1)
 a.m1(1)
 A.m2(1)
+a.m2(1)
 A.m3(1)
+a.m3(1)
