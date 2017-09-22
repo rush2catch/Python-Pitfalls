@@ -10,3 +10,4 @@ pitfalls and traps in python programming language
 - [x] dictionary - dic.py
 - [x] get the Intersection, Union and Difference of two sets/lists - IntersectionUnionDiff_of_TwoList.py
 - [x] control flow tools - ControlFlow.py
+- [x] @classmethod and @staticmethod - classmethod.py
